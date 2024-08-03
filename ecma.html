@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handlers</title>
+    <style>
+        #danger {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Event Handler -->
+    <div id="htmlEH">HTML Event Handler: </div>
+    <button onclick="oldSchool()">HTML Event Handler</button>
+    
+    <!-- Traditional DOM Handler -->
+    <div id="traditional">Traditional Event Handler: </div>
+    <input type="button" value="Traditional DOM Handler">
+    
+    <!-- Level 2 Event Listener -->
+    <div id="level2">DOM Level 2 Event Listeners:</div>
+    <input type="button" value="DOM Level 2 Event Listener">
+    
+    <!-- UI Event -->
+    <div id="pageURL">Page URL: </div>
+    <div id="myLastUpdate">Last Update: </div>
+    
+    <!-- Keyboard Event -->
+    <input type="text" placeholder="Press keys here">
+    <p id="pressNumber">Keyboard Event: </p>
+    
+    <!-- Mouse Event -->
+    <p id="danger">Double click me to change text.</p>
+    
+    <!-- Focus Event -->
+    <input type="text" class="blurText" placeholder="Blur me to uppercase">
+    
+    <!-- Form Event -->
+    <select id="js">
+        <option value="default">Select an option</option>
+        <option value="javascript">Javascript</option>
+        <option value="jQuery">jQuery</option>
+        <option value="Angular">Angular</option>
+        <option value="React">React</option>
+    </select>
+    <p id="selectText">Form Event: </p>
+    
+    <!-- Add/Delete List -->
+    <ul id="myList">
+        <li>Sample Item</li>
+    </ul>
+    <button>Add Item</button>
+
+    <script src="ecma.js"></script>
+</body>
+</html>
